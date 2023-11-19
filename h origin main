@@ -1,0 +1,2862 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex aa724b7..0000000[m
+[1m--- a/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1,15 +0,0 @@[m
+[31m-*.iml[m
+[31m-.gradle[m
+[31m-/local.properties[m
+[31m-/.idea/caches[m
+[31m-/.idea/libraries[m
+[31m-/.idea/modules.xml[m
+[31m-/.idea/workspace.xml[m
+[31m-/.idea/navEditor.xml[m
+[31m-/.idea/assetWizardSettings.xml[m
+[31m-.DS_Store[m
+[31m-/build[m
+[31m-/captures[m
+[31m-.externalNativeBuild[m
+[31m-.cxx[m
+[31m-local.properties[m
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex 26d3352..0000000[m
+[1m--- a/.idea/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1,3 +0,0 @@[m
+[31m-# Default ignored files[m
+[31m-/shelf/[m
+[31m-/workspace.xml[m
+[1mdiff --git a/.idea/.name b/.idea/.name[m
+[1mdeleted file mode 100644[m
+[1mindex d2d6839..0000000[m
+[1m--- a/.idea/.name[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-Travel Management  System[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/compiler.xml b/.idea/compiler.xml[m
+[1mdeleted file mode 100644[m
+[1mindex b589d56..0000000[m
+[1m--- a/.idea/compiler.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="CompilerConfiguration">[m
+[31m-    <bytecodeTargetLevel target="17" />[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/gradle.xml b/.idea/gradle.xml[m
+[1mdeleted file mode 100644[m
+[1mindex a2d7c21..0000000[m
+[1m--- a/.idea/gradle.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,19 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="GradleMigrationSettings" migrationVersion="1" />[m
+[31m-  <component name="GradleSettings">[m
+[31m-    <option name="linkedExternalProjectsSettings">[m
+[31m-      <GradleProjectSettings>[m
+[31m-        <option name="testRunner" value="GRADLE" />[m
+[31m-        <option name="distributionType" value="DEFAULT_WRAPPED" />[m
+[31m-        <option name="externalProjectPath" value="$PROJECT_DIR$" />[m
+[31m-        <option name="modules">[m
+[31m-          <set>[m
+[31m-            <option value="$PROJECT_DIR$" />[m
+[31m-            <option value="$PROJECT_DIR$/app" />[m
+[31m-          </set>[m
+[31m-        </option>[m
+[31m-      </GradleProjectSettings>[m
+[31m-    </option>[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml[m
+[1mdeleted file mode 100644[m
+[1mindex ab9a541..0000000[m
+[1m--- a/.idea/inspectionProfiles/Project_Default.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-<component name="InspectionProjectProfileManager">[m
+[31m-  <profile version="1.0">[m
+[31m-    <option name="myName" value="Project Default" />[m
+[31m-    <inspection_tool class="AndroidDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />[m
+[31m-  </profile>[m
+[31m-</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 773fe0f..0000000[m
+[1m--- a/.idea/misc.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,9 +0,0 @@[m
+[31m-<project version="4">[m
+[31m-  <component name="ExternalStorageConfigurationManager" enabled="true" />[m
+[31m-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">[m
+[31m-    <output url="file://$PROJECT_DIR$/build/classes" />[m
+[31m-  </component>[m
+[31m-  <component name="ProjectType">[m
+[31m-    <option name="id" value="Android" />[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e1f61a4[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# android-travel-management[m
+\ No newline at end of file[m
+[1mdiff --git a/app/.gitignore b/app/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex 42afabf..0000000[m
+[1m--- a/app/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-/build[m
+\ No newline at end of file[m
+[1mdiff --git a/app/build.gradle b/app/build.gradle[m
+[1mdeleted file mode 100644[m
+[1mindex 9ea54d0..0000000[m
+[1m--- a/app/build.gradle[m
+[1m+++ /dev/null[m
+[36m@@ -1,46 +0,0 @@[m
+[31m-plugins {[m
+[31m-    id 'com.android.application'[m
+[31m-}[m
+[31m-[m
+[31m-android {[m
+[31m-    namespace 'com.example.travelmanagementsystem'[m
+[31m-    compileSdkVersion 34[m
+[31m-[m
+[31m-    defaultConfig {[m
+[31m-        applicationId "com.example.travelmanagementsystem"[m
+[31m-        minSdk 24[m
+[31m-        targetSdk 34[m
+[31m-        versionCode 1[m
+[31m-        versionName "1.0"[m
+[31m-[m
+[31m-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"[m
+[31m-    }[m
+[31m-[m
+[31m-    buildTypes {[m
+[31m-        release {[m
+[31m-            minifyEnabled false[m
+[31m-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'[m
+[31m-        }[m
+[31m-    }[m
+[31m-    compileOptions {[m
+[31m-        sourceCompatibility JavaVersion.VERSION_1_8[m
+[31m-        targetCompatibility JavaVersion.VERSION_1_8[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[31m-dependencies {[m
+[31m-[m
+[31m-    implementation 'androidx.appcompat:appcompat:1.6.1'[m
+[31m-    implementation 'com.google.android.material:material:1.10.0'[m
+[31m-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'[m
+[31m-    testImplementation 'junit:junit:4.13.2'[m
+[31m-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'[m
+[31m-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'[m
+[31m-[m
+[31m-[m
+[31m-    // Retrofit for making network requests[m
+[31m-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'[m
+[31m-[m
+[31m-   // Retrofit Gson Converter for serializing/deserializing JSON[m
+[31m-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/app/proguard-rules.pro b/app/proguard-rules.pro[m
+[1mdeleted file mode 100644[m
+[1mindex 481bb43..0000000[m
+[1m--- a/app/proguard-rules.pro[m
+[1m+++ /dev/null[m
+[36m@@ -1,21 +0,0 @@[m
+[31m-# Add project specific ProGuard rules here.[m
+[31m-# You can control the set of applied configuration files using the[m
+[31m-# proguardFiles setting in build.gradle.[m
+[31m-#[m
+[31m-# For more details, see[m
+[31m-#   http://developer.android.com/guide/developing/tools/proguard.html[m
+[31m-[m
+[31m-# If your project uses WebView with JS, uncomment the following[m
+[31m-# and specify the fully qualified class name to the JavaScript interface[m
+[31m-# class:[m
+[31m-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {[m
+[31m-#   public *;[m
+[31m-#}[m
+[31m-[m
+[31m-# Uncomment this to preserve the line number information for[m
+[31m-# debugging stack traces.[m
+[31m-#-keepattributes SourceFile,LineNumberTable[m
+[31m-[m
+[31m-# If you keep the line number information, uncomment this to[m
+[31m-# hide the original source file name.[m
+[31m-#-renamesourcefileattribute SourceFile[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/androidTest/java/com/example/travelmanagementsystem/ExampleInstrumentedTest.java b/app/src/androidTest/java/com/example/travelmanagementsystem/ExampleInstrumentedTest.java[m
+[1mdeleted file mode 100644[m
+[1mindex 6cea328..0000000[m
+[1m--- a/app/src/androidTest/java/com/example/travelmanagementsystem/ExampleInstrumentedTest.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,26 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import android.content.Context;[m
+[31m-[m
+[31m-import androidx.test.platform.app.InstrumentationRegistry;[m
+[31m-import androidx.test.ext.junit.runners.AndroidJUnit4;[m
+[31m-[m
+[31m-import org.junit.Test;[m
+[31m-import org.junit.runner.RunWith;[m
+[31m-[m
+[31m-import static org.junit.Assert.*;[m
+[31m-[m
+[31m-/**[m
+[31m- * Instrumented test, which will execute on an Android device.[m
+[31m- *[m
+[31m- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>[m
+[31m- */[m
+[31m-@RunWith(AndroidJUnit4.class)[m
+[31m-public class ExampleInstrumentedTest {[m
+[31m-    @Test[m
+[31m-    public void useAppContext() {[m
+[31m-        // Context of the app under test.[m
+[31m-        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();[m
+[31m-        assertEquals("com.example.travelmanagementsystem", appContext.getPackageName());[m
+[31m-    }[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 08db534..0000000[m
+[1m--- a/app/src/main/AndroidManifest.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,42 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<manifest xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    xmlns:tools="http://schemas.android.com/tools">[m
+[31m-[m
+[31m-    <uses-permission android:name="android.permission.INTERNET" />[m
+[31m-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />[m
+[31m-[m
+[31m-    <application[m
+[31m-        android:allowBackup="true"[m
+[31m-        android:dataExtractionRules="@xml/data_extraction_rules"[m
+[31m-        android:fullBackupContent="@xml/backup_rules"[m
+[31m-        android:icon="@mipmap/ic_launcher"[m
+[31m-        android:label="@string/app_name"[m
+[31m-        android:roundIcon="@mipmap/ic_launcher_round"[m
+[31m-        android:supportsRtl="true"[m
+[31m-        android:theme="@style/Theme.TravelManagementSystem"[m
+[31m-        android:usesCleartextTraffic="true"[m
+[31m-        tools:targetApi="31">[m
+[31m-        <activity[m
+[31m-            android:name=".ViewDetails"[m
+[31m-            android:exported="false" />[m
+[31m-        <activity[m
+[31m-            android:name=".UpdateDetails"[m
+[31m-            android:exported="false" />[m
+[31m-        <activity[m
+[31m-            android:name=".Dashboard"[m
+[31m-            android:exported="false" />[m
+[31m-        <activity android:name=".SignUpActivity" />[m
+[31m-        <activity android:name=".ForGetPassword" />[m
+[31m-        <activity android:name=".AddPersonalData" />[m
+[31m-        <activity[m
+[31m-            android:name=".MainActivity"[m
+[31m-            android:exported="true">[m
+[31m-            <intent-filter>[m
+[31m-                <action android:name="android.intent.action.MAIN" />[m
+[31m-[m
+[31m-                <category android:name="android.intent.category.LAUNCHER" />[m
+[31m-            </intent-filter>[m
+[31m-        </activity>[m
+[31m-    </application>[m
+[31m-[m
+[31m-</manifest>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/AddPersonalData.java b/app/src/main/java/com/example/travelmanagementsystem/AddPersonalData.java[m
+[1mdeleted file mode 100644[m
+[1mindex f428b52..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/AddPersonalData.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,100 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import android.os.Bundle;[m
+[31m-import android.view.View;[m
+[31m-import android.widget.Button;[m
+[31m-import android.widget.EditText;[m
+[31m-import android.widget.Toast;[m
+[31m-[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-import com.example.travelmanagementsystem.model.TravelManagement;[m
+[31m-import com.example.travelmanagementsystem.retrofit.RetrofitService;[m
+[31m-import com.example.travelmanagementsystem.retrofit.TravelManagementApi;[m
+[31m-[m
+[31m-import java.util.logging.Level;[m
+[31m-import java.util.logging.Logger;[m
+[31m-[m
+[31m-import retrofit2.Call;[m
+[31m-import retrofit2.Callback;[m
+[31m-import retrofit2.Response;[m
+[31m-[m
+[31m-public class AddPersonalData extends AppCompatActivity {[m
+[31m-    EditText editTextUsername, editTextId, editTextNumber, editTextName, editTextGender,[m
+[31m-            editTextCountry, editTextAddress, editTextPhone, editTextEmailAddress;[m
+[31m-    Button buttonAdd;[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        setContentView(R.layout.addpersonaldetails);[m
+[31m-        initializeComponents();[m
+[31m-    }[m
+[31m-    private void initializeComponents() {[m
+[31m-[m
+[31m-        editTextUsername = findViewById(R.id.editTextUsername);[m
+[31m-        editTextId = findViewById(R.id.editTextId);[m
+[31m-        editTextNumber = findViewById(R.id.editTextNumber);[m
+[31m-        editTextName = findViewById(R.id.editTextName);[m
+[31m-        editTextGender = findViewById(R.id.editTextGender);[m
+[31m-        editTextCountry = findViewById(R.id.editTextCountry);[m
+[31m-        editTextAddress = findViewById(R.id.editTextAddress);[m
+[31m-        editTextPhone = findViewById(R.id.editTextPhone);[m
+[31m-        editTextEmailAddress = findViewById(R.id.editTextEmailAddress);[m
+[31m-[m
+[31m-        buttonAdd = findViewById(R.id.buttonAdd);[m
+[31m-        RetrofitService retrofitService = new RetrofitService();[m
+[31m-        TravelManagementApi travelManagementApi = retrofitService.getRetrofit().create(TravelManagementApi.class);[m
+[31m-[m
+[31m-        buttonAdd.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View v) {[m
+[31m-                try {[m
+[31m-[m
+[31m-                    String username = String.valueOf(editTextUsername.getText());[m
+[31m-                    long id = Long.parseLong(String.valueOf(editTextId.getText()));[m
+[31m-                    double number = Double.parseDouble(String.valueOf(editTextNumber.getText()));[m
+[31m-                    String name = String.valueOf(editTextName.getText());[m
+[31m-                    String gender = String.valueOf(editTextGender.getText());[m
+[31m-                    String country =String.valueOf(editTextCountry.getText());[m
+[31m-                    String address = String.valueOf(editTextAddress.getText());[m
+[31m-                    double phone = Double.parseDouble(String.valueOf(editTextPhone.getText()));[m
+[31m-                    String emailAddress = String.valueOf(editTextEmailAddress.getText());[m
+[31m-[m
+[31m-                    TravelManagement travelManagement = new TravelManagement();[m
+[31m-[m
+[31m-[m
+[31m-                    travelManagement.setUserName(username);[m
+[31m-                    travelManagement.setId(id);[m
+[31m-                    travelManagement.setNumber(number);[m
+[31m-                    travelManagement.setName(name);[m
+[31m-                    travelManagement.setGender(gender);[m
+[31m-                    travelManagement.setCountry(country);[m
+[31m-                    travelManagement.setAddress(address);[m
+[31m-                    travelManagement.setPhone(phone);[m
+[31m-                    travelManagement.setEmail(emailAddress);[m
+[31m-[m
+[31m-                    Call<TravelManagement> call = travelManagementApi.createTravelManagement(travelManagement);[m
+[31m-                    call.enqueue(new Callback<TravelManagement>() {[m
+[31m-                        @Override[m
+[31m-                        public void onResponse( Call<TravelManagement> call,  Response<TravelManagement> response) {[m
+[31m-[m
+[31m-                                Toast.makeText(AddPersonalData.this, "Save successful!!", Toast.LENGTH_SHORT).show();[m
+[31m-[m
+[31m-                        }[m
+[31m-                        @Override[m
+[31m-                        public void onFailure(Call<TravelManagement> call, Throwable t) {[m
+[31m-                            // Handle network or other failures[m
+[31m-                            Toast.makeText(AddPersonalData.this, "Save failed. An error occurred.", Toast.LENGTH_SHORT).show();[m
+[31m-                            Logger.getLogger(AddPersonalData.class.getName()).log(Level.SEVERE, "Error occurred", t);[m
+[31m-                        }[m
+[31m-                    });[m
+[31m-                } catch (NumberFormatException e) {[m
+[31m-                    // Handle number format exceptions here[m
+[31m-                    Toast.makeText(AddPersonalData.this, "Invalid number format.", Toast.LENGTH_SHORT).show();[m
+[31m-                }[m
+[31m-            }[m
+[31m-        });[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/Dashboard.java b/app/src/main/java/com/example/travelmanagementsystem/Dashboard.java[m
+[1mdeleted file mode 100644[m
+[1mindex 3460695..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/Dashboard.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,60 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-import android.content.Intent;[m
+[31m-import android.os.Bundle;[m
+[31m-import android.view.View;[m
+[31m-import android.widget.Button;[m
+[31m-[m
+[31m-public class Dashboard extends AppCompatActivity {[m
+[31m-[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        setContentView(R.layout.activity_dashboard);[m
+[31m-        // Initialize buttons[m
+[31m-        Button buttonAdd = findViewById(R.id.buttonAdd);[m
+[31m-        Button buttonUpdate = findViewById(R.id.buttonUpdate);[m
+[31m-        Button buttonView = findViewById(R.id.buttonView);[m
+[31m-        Button buttonDelete = findViewById(R.id.buttonDelete);[m
+[31m-        Button buttonCheckPackage = findViewById(R.id.buttonCheckPackage);[m
+[31m-        Button buttonBookPackage = findViewById(R.id.buttonBookPackage);[m
+[31m-        Button buttonViewPackage = findViewById(R.id.buttonViewPackage);[m
+[31m-        Button buttonViewHotel = findViewById(R.id.buttonViewHotel);[m
+[31m-        Button buttonBookedHotel = findViewById(R.id.buttonBookedHotel);[m
+[31m-        Button buttonDestination = findViewById(R.id.buttonDestination);[m
+[31m-        Button buttonPayment = findViewById(R.id.buttonPayment);[m
+[31m-        Button buttonAbout = findViewById(R.id.buttonAbout);[m
+[31m-[m
+[31m-        buttonAdd.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                Intent intent = new Intent(Dashboard.this, AddPersonalData.class);[m
+[31m-                startActivity(intent);[m
+[31m-            }[m
+[31m-        });[m
+[31m-        buttonUpdate.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                Intent intent1 = new Intent(Dashboard.this,UpdateDetails.class);[m
+[31m-                startActivity(intent1);[m
+[31m-            }[m
+[31m-        });[m
+[31m-        buttonView.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                Intent intent2 = new Intent(Dashboard.this,ViewDetails.class);[m
+[31m-                startActivity(intent2);[m
+[31m-            }[m
+[31m-        });[m
+[31m-        buttonDelete.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                Intent intent3 = new Intent(Dashboard.this, ViewDetails.class);[m
+[31m-                startActivity(intent3);[m
+[31m-            }[m
+[31m-        });[m
+[31m-[m
+[31m-    }[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/ForGetPassword.java b/app/src/main/java/com/example/travelmanagementsystem/ForGetPassword.java[m
+[1mdeleted file mode 100644[m
+[1mindex a541352..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/ForGetPassword.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,45 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import android.content.Intent;[m
+[31m-import android.os.Bundle;[m
+[31m-import android.view.View;[m
+[31m-import android.widget.Button;[m
+[31m-import android.widget.EditText;[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-public class ForGetPassword extends AppCompatActivity {[m
+[31m-    EditText usernameEditText, emailEditText, passwordEditText, SecurityEditText, answerEditText;[m
+[31m-    Button backButton;[m
+[31m-[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        setContentView(R.layout.forgetpassword);[m
+[31m-[m
+[31m-        usernameEditText = findViewById(R.id.usernameEditText);[m
+[31m-        emailEditText = findViewById(R.id.emailEditText);[m
+[31m-        SecurityEditText = findViewById(R.id.SecurityEditText);[m
+[31m-        answerEditText = findViewById(R.id.answerEditText);[m
+[31m-        passwordEditText = findViewById(R.id.passwordEditText);[m
+[31m-[m
+[31m-        backButton = findViewById(R.id.backButton);[m
+[31m-[m
+[31m-        backButton.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View v) {[m
+[31m-[m
+[31m-                String username = usernameEditText.getText().toString();[m
+[31m-                String email = emailEditText.getText().toString();[m
+[31m-                String password = passwordEditText.getText().toString();[m
+[31m-                String securityQuestion = SecurityEditText.getText().toString();[m
+[31m-                String answer = answerEditText.getText().toString();[m
+[31m-                backButton = (Button) findViewById(R.id.backButton);[m
+[31m-                Intent intent  = new Intent(ForGetPassword.this,MainActivity.class);[m
+[31m-                startActivity(intent);[m
+[31m-[m
+[31m-            }[m
+[31m-        });[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/MainActivity.java b/app/src/main/java/com/example/travelmanagementsystem/MainActivity.java[m
+[1mdeleted file mode 100644[m
+[1mindex 800926e..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/MainActivity.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,51 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-import android.annotation.SuppressLint;[m
+[31m-import android.widget.Button;[m
+[31m-import android.content.Intent;[m
+[31m-import android.view.View;[m
+[31m-[m
+[31m-import android.os.Bundle;[m
+[31m-import android.widget.TextView;[m
+[31m-[m
+[31m-public class MainActivity extends AppCompatActivity {[m
+[31m-    public Button signupButton, loginButton;[m
+[31m-    public TextView forgotPassword;[m
+[31m-    @SuppressLint("MissingInflatedId")[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        setContentView(R.layout.activity_main);[m
+[31m-        signupButton = (Button) findViewById(R.id.signupButton);[m
+[31m-        forgotPassword = (TextView) findViewById(R.id.forgotPassword) ;[m
+[31m-        loginButton = (Button) findViewById(R.id.loginButton);[m
+[31m-        signupButton.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View v) {[m
+[31m-                Intent intent  = new Intent(MainActivity.this,SignUpActivity.class);[m
+[31m-                startActivity(intent);[m
+[31m-[m
+[31m-            }[m
+[31m-        });[m
+[31m-[m
+[31m-        forgotPassword.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View v) {[m
+[31m-                Intent intent2  = new Intent(MainActivity.this,ForGetPassword.class);[m
+[31m-                startActivity(intent2);[m
+[31m-            }[m
+[31m-        });[m
+[31m-        loginButton.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View v) {[m
+[31m-                Intent intent3  = new Intent(MainActivity.this,Dashboard.class);[m
+[31m-                startActivity(intent3);[m
+[31m-            }[m
+[31m-        });[m
+[31m-[m
+[31m-    }[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/SignUpActivity.java b/app/src/main/java/com/example/travelmanagementsystem/SignUpActivity.java[m
+[1mdeleted file mode 100644[m
+[1mindex 1396a65..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/SignUpActivity.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,46 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import static androidx.core.content.ContextCompat.startActivity;[m
+[31m-[m
+[31m-import android.content.Intent;[m
+[31m-import android.os.Bundle;[m
+[31m-import android.view.View;[m
+[31m-import android.widget.Button;[m
+[31m-import android.widget.EditText;[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-public class SignUpActivity extends AppCompatActivity {[m
+[31m-    EditText usernameEditText, emailEditText, passwordEditText, SecurityEditText, answerEditText;[m
+[31m-    Button signUpButton;[m
+[31m-[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        setContentView(R.layout.signup);[m
+[31m-[m
+[31m-        usernameEditText = findViewById(R.id.usernameEditText);[m
+[31m-        emailEditText = findViewById(R.id.emailEditText);[m
+[31m-        passwordEditText = findViewById(R.id.passwordEditText);[m
+[31m-        SecurityEditText = findViewById(R.id.SecurityEditText);[m
+[31m-        answerEditText = findViewById(R.id.answerEditText);[m
+[31m-        signUpButton = findViewById(R.id.signupButton);[m
+[31m-[m
+[31m-        signUpButton.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View v) {[m
+[31m-                // Get user input[m
+[31m-                String username = usernameEditText.getText().toString();[m
+[31m-                String email = emailEditText.getText().toString();[m
+[31m-                String password = passwordEditText.getText().toString();[m
+[31m-                String securityQuestion = SecurityEditText.getText().toString();[m
+[31m-                String answer = answerEditText.getText().toString();[m
+[31m-                signUpButton = (Button) findViewById(R.id.signupButton);[m
+[31m-                    Intent intent  = new Intent(SignUpActivity.this,MainActivity.class);[m
+[31m-                    startActivity(intent);[m
+[31m-[m
+[31m-            }[m
+[31m-        });[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/UpdateDetails.java b/app/src/main/java/com/example/travelmanagementsystem/UpdateDetails.java[m
+[1mdeleted file mode 100644[m
+[1mindex 2fe2d63..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/UpdateDetails.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,99 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-import android.os.Bundle;[m
+[31m-import android.view.View;[m
+[31m-import android.widget.Button;[m
+[31m-import android.widget.EditText;[m
+[31m-import android.widget.Toast;[m
+[31m-[m
+[31m-import com.example.travelmanagementsystem.model.TravelManagement;[m
+[31m-import com.example.travelmanagementsystem.retrofit.RetrofitService;[m
+[31m-import com.example.travelmanagementsystem.retrofit.TravelManagementApi;[m
+[31m-[m
+[31m-import java.util.logging.Level;[m
+[31m-import java.util.logging.Logger;[m
+[31m-[m
+[31m-import retrofit2.Call;[m
+[31m-import retrofit2.Callback;[m
+[31m-import retrofit2.Response;[m
+[31m-[m
+[31m-public class UpdateDetails extends AppCompatActivity {[m
+[31m-    EditText editTextUserName, editTextId, editTextAdarPan, editTextName, editTextGender, editTextCountry, editTextAddress, editTextPhone, editTextEmail;[m
+[31m-[m
+[31m-    Button buttonUpdate;[m
+[31m-[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        setContentView(R.layout.activity_update_details);[m
+[31m-[m
+[31m-        editTextUserName = findViewById(R.id.editTextUserName);[m
+[31m-        editTextId = findViewById(R.id.editTextId);[m
+[31m-        editTextAdarPan = findViewById(R.id.editTextAdharPan);[m
+[31m-        editTextName = findViewById(R.id.editTextName);[m
+[31m-        editTextGender = findViewById(R.id.editTextGender);[m
+[31m-        editTextCountry = findViewById(R.id.editTextCountry);[m
+[31m-        editTextAddress = findViewById(R.id.editTextAddress);[m
+[31m-        editTextPhone = findViewById(R.id.editTextPhone);[m
+[31m-        editTextEmail = findViewById(R.id.editTextEmail);[m
+[31m-        buttonUpdate = findViewById(R.id.buttonUpdate);[m
+[31m-[m
+[31m-        RetrofitService retrofitService = new RetrofitService();[m
+[31m-        TravelManagementApi travelManagementApi = retrofitService.getRetrofit().create(TravelManagementApi.class);[m
+[31m-[m
+[31m-        buttonUpdate.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                try {[m
+[31m-                    String username = editTextUserName.getText().toString();[m
+[31m-                    long id = Long.parseLong(editTextId.getText().toString());[m
+[31m-                    double number = Double.parseDouble(editTextAdarPan.getText().toString());[m
+[31m-                    String name = editTextName.getText().toString();[m
+[31m-                    String gender = editTextGender.getText().toString();[m
+[31m-                    String country = editTextCountry.getText().toString();[m
+[31m-                    String address = editTextAddress.getText().toString();[m
+[31m-                    double phone = Double.parseDouble(editTextPhone.getText().toString());[m
+[31m-                    String emailAddress = editTextEmail.getText().toString();[m
+[31m-[m
+[31m-                    TravelManagement travelManagement = new TravelManagement();[m
+[31m-                    travelManagement.setUserName(username);[m
+[31m-                    travelManagement.setId(id);[m
+[31m-                    travelManagement.setNumber(number);[m
+[31m-                    travelManagement.setName(name);[m
+[31m-                    travelManagement.setGender(gender);[m
+[31m-                    travelManagement.setCountry(country);[m
+[31m-                    travelManagement.setAddress(address);[m
+[31m-                    travelManagement.setPhone(phone);[m
+[31m-                    travelManagement.setEmail(emailAddress);[m
+[31m-[m
+[31m-                    Call<TravelManagement> call = travelManagementApi.updateTravelManagement(id, travelManagement);[m
+[31m-                    call.enqueue(new Callback<TravelManagement>() {[m
+[31m-                        @Override[m
+[31m-                        public void onResponse(Call<TravelManagement> call, Response<TravelManagement> response) {[m
+[31m-                            if (response.isSuccessful()) {[m
+[31m-                                // The update was successful[m
+[31m-                                Toast.makeText(UpdateDetails.this, "Update successful!!", Toast.LENGTH_SHORT).show();[m
+[31m-                            } else {[m
+[31m-                                // The server returned an error response[m
+[31m-                                // You can handle specific HTTP error codes here[m
+[31m-                                Toast.makeText(UpdateDetails.this, "Update failed. Server returned an error.", Toast.LENGTH_SHORT).show();[m
+[31m-                            }[m
+[31m-                        }[m
+[31m-[m
+[31m-                        @Override[m
+[31m-                        public void onFailure(Call<TravelManagement> call, Throwable t) {[m
+[31m-                            // Handle network or other failures[m
+[31m-                            Toast.makeText(UpdateDetails.this, "Update failed. An error occurred.", Toast.LENGTH_SHORT).show();[m
+[31m-                            Logger.getLogger(UpdateDetails.class.getName()).log(Level.SEVERE, "Error occurred", t);[m
+[31m-                        }[m
+[31m-                    });[m
+[31m-                } catch (NumberFormatException e) {[m
+[31m-                    // Handle number format exceptions here[m
+[31m-                    Toast.makeText(UpdateDetails.this, "Invalid number format.", Toast.LENGTH_SHORT).show();[m
+[31m-                }[m
+[31m-            }[m
+[31m-        });[m
+[31m-    }[m
+[31m-}[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/ViewDetails.java b/app/src/main/java/com/example/travelmanagementsystem/ViewDetails.java[m
+[1mdeleted file mode 100644[m
+[1mindex fe5c49e..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/ViewDetails.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,149 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-import android.annotation.SuppressLint;[m
+[31m-import android.os.Bundle;[m
+[31m-import android.view.View;[m
+[31m-import android.widget.Button;[m
+[31m-import android.widget.EditText;[m
+[31m-import android.widget.TextView;[m
+[31m-import android.widget.Toast;[m
+[31m-[m
+[31m-import com.example.travelmanagementsystem.model.TravelManagement;[m
+[31m-import com.example.travelmanagementsystem.retrofit.RetrofitService;[m
+[31m-import com.example.travelmanagementsystem.retrofit.TravelManagementApi;[m
+[31m-[m
+[31m-import retrofit2.Call;[m
+[31m-import retrofit2.Callback;[m
+[31m-import retrofit2.Response;[m
+[31m-[m
+[31m-public class ViewDetails extends AppCompatActivity {[m
+[31m-    EditText editTextId;[m
+[31m-    Button buttonView, buttonDelete;[m
+[31m-    TextView textViewUserName, textViewId, textViewAdarPan, textViewName, textViewGender, textViewCountry, textViewAddress, textViewPhone, textViewEmail;[m
+[31m-[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        setContentView(R.layout.activity_view_details);[m
+[31m-[m
+[31m-        editTextId = findViewById(R.id.editTextId);[m
+[31m-        buttonView = findViewById(R.id.buttonView);[m
+[31m-        buttonDelete = findViewById(R.id.buttonDelete);[m
+[31m-[m
+[31m-[m
+[31m-        textViewUserName = findViewById(R.id.textViewUserName);[m
+[31m-        textViewId = findViewById(R.id.textViewId);[m
+[31m-        textViewAdarPan = findViewById(R.id.textViewAdarPan);[m
+[31m-        textViewName = findViewById(R.id.textViewName);[m
+[31m-        textViewGender = findViewById(R.id.textViewGender);[m
+[31m-        textViewCountry = findViewById(R.id.textViewCountry);[m
+[31m-        textViewAddress = findViewById(R.id.textViewAddress);[m
+[31m-        textViewPhone = findViewById(R.id.textViewPhone);[m
+[31m-        textViewEmail = findViewById(R.id.textViewEmail);[m
+[31m-[m
+[31m-        RetrofitService retrofitService = new RetrofitService();[m
+[31m-        TravelManagementApi travelManagementApi = retrofitService.getRetrofit().create(TravelManagementApi.class);[m
+[31m-[m
+[31m-        buttonView.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                String userIdText = editTextId.getText().toString();[m
+[31m-                if (userIdText.isEmpty()) {[m
+[31m-                    // Handle the case where the user didn't enter an ID[m
+[31m-                    Toast.makeText(ViewDetails.this, "Please enter a user ID", Toast.LENGTH_SHORT).show();[m
+[31m-                    return;[m
+[31m-                }[m
+[31m-[m
+[31m-                long userId = Long.parseLong(userIdText);[m
+[31m-[m
+[31m-                Call<TravelManagement> call = travelManagementApi.getTravelManagementById(userId);[m
+[31m-[m
+[31m-                call.enqueue(new Callback<TravelManagement>() {[m
+[31m-[m
+[31m-                    @SuppressLint("SetTextI18n")[m
+[31m-                    @Override[m
+[31m-                    public void onResponse(Call<TravelManagement> call, Response<TravelManagement> response) {[m
+[31m-                        if (response.isSuccessful()) {[m
+[31m-                            TravelManagement travelManagement = response.body();[m
+[31m-[m
+[31m-                            // Set TextViews with the retrieved data[m
+[31m-[m
+[31m-                            assert travelManagement != null;[m
+[31m-                            textViewUserName.setText("User Name: " + travelManagement.getUserName());[m
+[31m-                            textViewId.setText("ID: " + travelManagement.getId());[m
+[31m-                            textViewAdarPan.setText("Adar/PAN: " + travelManagement.getNumber());[m
+[31m-                            textViewName.setText("Name: " + travelManagement.getName());[m
+[31m-                            textViewGender.setText("Gender: " + travelManagement.getGender());[m
+[31m-                            textViewCountry.setText("Country: " + travelManagement.getCountry());[m
+[31m-                            textViewAddress.setText("Address: " + travelManagement.getAddress());[m
+[31m-                            textViewPhone.setText("Phone: " + travelManagement.getPhone());[m
+[31m-                            textViewEmail.setText("Email: " + travelManagement.getEmail());[m
+[31m-                        } else {[m
+[31m-                            // Handle the case where the server returned an error[m
+[31m-                            Toast.makeText(ViewDetails.this, "Failed to retrieve details. Server returned an error.", Toast.LENGTH_SHORT).show();[m
+[31m-                        }[m
+[31m-                    }[m
+[31m-[m
+[31m-                    @Override[m
+[31m-                    public void onFailure(Call<TravelManagement> call, Throwable t) {[m
+[31m-                        // Handle the case where an error occurred[m
+[31m-                        Toast.makeText(ViewDetails.this, "Failed to retrieve details. An error occurred.", Toast.LENGTH_SHORT).show();[m
+[31m-                    }[m
+[31m-                });[m
+[31m-            }[m
+[31m-        });[m
+[31m-        buttonDelete.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                String userIdText = editTextId.getText().toString();[m
+[31m-                if (userIdText.isEmpty()) {[m
+[31m-                    // Handle the case where the user didn't enter an ID[m
+[31m-                    Toast.makeText(ViewDetails.this, "Please enter a user ID", Toast.LENGTH_SHORT).show();[m
+[31m-                    return;[m
+[31m-                }[m
+[31m-[m
+[31m-                long userId = Long.parseLong(userIdText);[m
+[31m-[m
+[31m-                Call<Void> call = travelManagementApi.deleteTravelManagement(userId);[m
+[31m-[m
+[31m-                call.enqueue(new Callback<Void>() {[m
+[31m-                    @Override[m
+[31m-                    public void onResponse(Call<Void> call, Response<Void> response) {[m
+[31m-                        if (response.isSuccessful()) {[m
+[31m-                            // Handle the case where the delete operation was successful[m
+[31m-                            Toast.makeText(ViewDetails.this, "Details deleted successfully.", Toast.LENGTH_SHORT).show();[m
+[31m-                            // Clear the TextViews or hide them as needed[m
+[31m-                            clearTextViews();[m
+[31m-[m
+[31m-                        } else {[m
+[31m-                            // Handle the case where the server returned an error[m
+[31m-                            Toast.makeText(ViewDetails.this, "Failed to delete details. Server returned an error.", Toast.LENGTH_SHORT).show();[m
+[31m-                        }[m
+[31m-                    }[m
+[31m-[m
+[31m-                    @Override[m
+[31m-                    public void onFailure(Call<Void> call, Throwable t) {[m
+[31m-                        // Handle the case where an error occurred[m
+[31m-                        Toast.makeText(ViewDetails.this, "Failed to delete details. An error occurred.", Toast.LENGTH_SHORT).show();[m
+[31m-                    }[m
+[31m-                });[m
+[31m-            }[m
+[31m-        });[m
+[31m-[m
+[31m-[m
+[31m-    }[m
+[31m-[m
+[31m-    private void clearTextViews() {[m
+[31m-        textViewUserName.setText("");[m
+[31m-        textViewId.setText("");[m
+[31m-        textViewAdarPan.setText("");[m
+[31m-        textViewName.setText("");[m
+[31m-        textViewGender.setText("");[m
+[31m-        textViewCountry.setText("");[m
+[31m-        textViewAddress.setText("");[m
+[31m-        textViewPhone.setText("");[m
+[31m-        textViewEmail.setText("");[m
+[31m-    }[m
+[31m-}[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/model/TravelManagement.java b/app/src/main/java/com/example/travelmanagementsystem/model/TravelManagement.java[m
+[1mdeleted file mode 100644[m
+[1mindex e680afc..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/model/TravelManagement.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,86 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem.model;[m
+[31m-[m
+[31m-public class TravelManagement {[m
+[31m-[m
+[31m-    private Long id;[m
+[31m-    private String userName;[m
+[31m-    private double number;[m
+[31m-    private String name;[m
+[31m-    private String gender;[m
+[31m-    private String country;[m
+[31m-    private String address;[m
+[31m-    private double phone;[m
+[31m-    private String email;[m
+[31m-[m
+[31m-    public Long getId() {[m
+[31m-        return id;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setId(Long id) {[m
+[31m-        this.id = id;[m
+[31m-    }[m
+[31m-[m
+[31m-    public String getUserName() {[m
+[31m-        return userName;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setUserName(String userName) {[m
+[31m-        this.userName = userName;[m
+[31m-    }[m
+[31m-[m
+[31m-    public double getNumber() {[m
+[31m-        return number;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setNumber(double number) {[m
+[31m-        this.number = number;[m
+[31m-    }[m
+[31m-[m
+[31m-    public String getName() {[m
+[31m-        return name;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setName(String name) {[m
+[31m-        this.name = name;[m
+[31m-    }[m
+[31m-[m
+[31m-    public String getGender() {[m
+[31m-        return gender;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setGender(String gender) {[m
+[31m-        this.gender = gender;[m
+[31m-    }[m
+[31m-[m
+[31m-    public String getCountry() {[m
+[31m-        return country;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setCountry(String country) {[m
+[31m-        this.country = country;[m
+[31m-    }[m
+[31m-[m
+[31m-    public String getAddress() {[m
+[31m-        return address;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setAddress(String address) {[m
+[31m-        this.address = address;[m
+[31m-    }[m
+[31m-[m
+[31m-    public double getPhone() {[m
+[31m-        return phone;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setPhone(double phone) {[m
+[31m-        this.phone = phone;[m
+[31m-    }[m
+[31m-[m
+[31m-    public String getEmail() {[m
+[31m-        return email;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setEmail(String email) {[m
+[31m-        this.email = email;[m
+[31m-    }[m
+[31m-}[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/retrofit/RetrofitService.java b/app/src/main/java/com/example/travelmanagementsystem/retrofit/RetrofitService.java[m
+[1mdeleted file mode 100644[m
+[1mindex f523d3a..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/retrofit/RetrofitService.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,25 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem.retrofit;[m
+[31m-[m
+[31m-import com.google.gson.Gson;[m
+[31m-[m
+[31m-import retrofit2.Retrofit;[m
+[31m-import retrofit2.converter.gson.GsonConverterFactory;[m
+[31m-[m
+[31m-public class RetrofitService {[m
+[31m-    private Retrofit retrofit;[m
+[31m-[m
+[31m-    public RetrofitService(){[m
+[31m-        initializeRetrofit();[m
+[31m-    }[m
+[31m-[m
+[31m-    private void initializeRetrofit() {[m
+[31m-        retrofit =new  Retrofit.Builder()[m
+[31m-                .baseUrl("http://192.168.43.6:9090")[m
+[31m-                .addConverterFactory(GsonConverterFactory.create(new Gson()))[m
+[31m-                .build();[m
+[31m-    }[m
+[31m-    public Retrofit getRetrofit(){[m
+[31m-        return retrofit;[m
+[31m-    }[m
+[31m-[m
+[31m-}[m
+[1mdiff --git a/app/src/main/java/com/example/travelmanagementsystem/retrofit/TravelManagementApi.java b/app/src/main/java/com/example/travelmanagementsystem/retrofit/TravelManagementApi.java[m
+[1mdeleted file mode 100644[m
+[1mindex d23c2d8..0000000[m
+[1m--- a/app/src/main/java/com/example/travelmanagementsystem/retrofit/TravelManagementApi.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,29 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem.retrofit;[m
+[31m-[m
+[31m-import com.example.travelmanagementsystem.model.TravelManagement;[m
+[31m-[m
+[31m-[m
+[31m-import retrofit2.Call;[m
+[31m-import retrofit2.http.Body;[m
+[31m-import retrofit2.http.DELETE;[m
+[31m-import retrofit2.http.GET;[m
+[31m-import retrofit2.http.POST;[m
+[31m-import retrofit2.http.PUT;[m
+[31m-import retrofit2.http.Path;[m
+[31m-[m
+[31m-public interface TravelManagementApi {[m
+[31m-    @GET("/travel-management/view/{id}")[m
+[31m-    Call<TravelManagement> getTravelManagementById(@Path("id") Long userId);[m
+[31m-[m
+[31m-[m
+[31m-    @POST("/travel-management/create")[m
+[31m-    Call<TravelManagement> createTravelManagement(@Body TravelManagement travelManagement);[m
+[31m-[m
+[31m-    @PUT("/travel-management/update/{id}")[m
+[31m-    Call<TravelManagement> updateTravelManagement(@Path("id") Long id, @Body TravelManagement travelManagement);[m
+[31m-[m
+[31m-    @DELETE("/travel-management/delete/{id}")[m
+[31m-    Call<Void> deleteTravelManagement(@Path("id") Long id);[m
+[31m-[m
+[31m-[m
+[31m-}[m
+[1mdiff --git a/app/src/main/res/drawable-v24/ic_launcher_foreground.xml b/app/src/main/res/drawable-v24/ic_launcher_foreground.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 2b068d1..0000000[m
+[1m--- a/app/src/main/res/drawable-v24/ic_launcher_foreground.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,30 +0,0 @@[m
+[31m-<vector xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    xmlns:aapt="http://schemas.android.com/aapt"[m
+[31m-    android:width="108dp"[m
+[31m-    android:height="108dp"[m
+[31m-    android:viewportWidth="108"[m
+[31m-    android:viewportHeight="108">[m
+[31m-    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">[m
+[31m-        <aapt:attr name="android:fillColor">[m
+[31m-            <gradient[m
+[31m-                android:endX="85.84757"[m
+[31m-                android:endY="92.4963"[m
+[31m-                android:startX="42.9492"[m
+[31m-                android:startY="49.59793"[m
+[31m-                android:type="linear">[m
+[31m-                <item[m
+[31m-                    android:color="#44000000"[m
+[31m-                    android:offset="0.0" />[m
+[31m-                <item[m
+[31m-                    android:color="#00000000"[m
+[31m-                    android:offset="1.0" />[m
+[31m-            </gradient>[m
+[31m-        </aapt:attr>[m
+[31m-    </path>[m
+[31m-    <path[m
+[31m-        android:fillColor="#FFFFFF"[m
+[31m-        android:fillType="nonZero"[m
+[31m-        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"[m
+[31m-        android:strokeWidth="1"[m
+[31m-        android:strokeColor="#00000000" />[m
+[31m-</vector>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/drawable/addpersonaldata.xml b/app/src/main/res/drawable/addpersonaldata.xml[m
+[1mdeleted file mode 100644[m
+[1mindex e9b96da..0000000[m
+[1m--- a/app/src/main/res/drawable/addpersonaldata.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<shape xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-    <solid android:color="#344677" /> <!-- Background color -->[m
+[31m-    <stroke android:width="1dp" android:color="#000000" /> <!-- Border color and width -->[m
+[31m-    <corners android:radius="4dp" /> <!-- Rounded corners, adjust the radius as needed -->[m
+[31m-</shape>[m
+[1mdiff --git a/app/src/main/res/drawable/background_image.xml b/app/src/main/res/drawable/background_image.xml[m
+[1mdeleted file mode 100644[m
+[1mindex aca71b8..0000000[m
+[1m--- a/app/src/main/res/drawable/background_image.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,4 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-    <item android:drawable="@drawable/img_6" />[m
+[31m-</layer-list>[m
+[1mdiff --git a/app/src/main/res/drawable/border.xml b/app/src/main/res/drawable/border.xml[m
+[1mdeleted file mode 100644[m
+[1mindex d3d9575..0000000[m
+[1m--- a/app/src/main/res/drawable/border.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,7 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<shape xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-   <stroke[m
+[31m-       android:width="2sp"[m
+[31m-       android:color="#9EB94E"[m
+[31m-       />[m
+[31m-</shape>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/drawable/button_bg.xml b/app/src/main/res/drawable/button_bg.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 0717162..0000000[m
+[1m--- a/app/src/main/res/drawable/button_bg.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,17 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-    <!-- Default state -->[m
+[31m-    <item tools:ignore="StateListReachable">[m
+[31m-        <shape>[m
+[31m-            <solid android:color="#007AFF" /> <!-- Background color -->[m
+[31m-            <corners android:radius="4dp" /> <!-- Rounded corners, adjust the radius as needed -->[m
+[31m-        </shape>[m
+[31m-    </item>[m
+[31m-    <!-- Pressed state -->[m
+[31m-    <item android:state_pressed="true">[m
+[31m-        <shape>[m
+[31m-            <solid android:color="#0056B3" /> <!-- Background color when pressed -->[m
+[31m-            <corners android:radius="4dp" /> <!-- Rounded corners, adjust the radius as needed -->[m
+[31m-        </shape>[m
+[31m-    </item>[m
+[31m-</selector>[m
+[1mdiff --git a/app/src/main/res/drawable/dashbord.xml b/app/src/main/res/drawable/dashbord.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 3ab450d..0000000[m
+[1m--- a/app/src/main/res/drawable/dashbord.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,17 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-    <!-- Default state -->[m
+[31m-    <item tools:ignore="StateListReachable">[m
+[31m-        <shape>[m
+[31m-            <solid android:color="#74B44A" /> <!-- Background color -->[m
+[31m-            <corners android:radius="4dp" /> <!-- Rounded corners, adjust the radius as needed -->[m
+[31m-        </shape>[m
+[31m-    </item>[m
+[31m-    <!-- Pressed state -->[m
+[31m-    <item android:state_pressed="true">[m
+[31m-        <shape>[m
+[31m-            <solid android:color="#0056B3" /> <!-- Background color when pressed -->[m
+[31m-            <corners android:radius="4dp" /> <!-- Rounded corners, adjust the radius as needed -->[m
+[31m-        </shape>[m
+[31m-    </item>[m
+[31m-</selector>[m
+[1mdiff --git a/app/src/main/res/drawable/edit_text_bg.xml b/app/src/main/res/drawable/edit_text_bg.xml[m
+[1mdeleted file mode 100644[m
+[1mindex bede857..0000000[m
+[1m--- a/app/src/main/res/drawable/edit_text_bg.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<shape xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-    <solid android:color="#FFFFFF" /> <!-- Background color -->[m
+[31m-    <stroke android:width="1dp" android:color="#000000" /> <!-- Border color and width -->[m
+[31m-    <corners android:radius="4dp" /> <!-- Rounded corners, adjust the radius as needed -->[m
+[31m-</shape>[m
+[1mdiff --git a/app/src/main/res/drawable/ic_launcher_background.xml b/app/src/main/res/drawable/ic_launcher_background.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 07d5da9..0000000[m
+[1m--- a/app/src/main/res/drawable/ic_launcher_background.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,170 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<vector xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    android:width="108dp"[m
+[31m-    android:height="108dp"[m
+[31m-    android:viewportWidth="108"[m
+[31m-    android:viewportHeight="108">[m
+[31m-    <path[m
+[31m-        android:fillColor="#3DDC84"[m
+[31m-        android:pathData="M0,0h108v108h-108z" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M9,0L9,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M19,0L19,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M29,0L29,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M39,0L39,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M49,0L49,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M59,0L59,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M69,0L69,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M79,0L79,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M89,0L89,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M99,0L99,108"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,9L108,9"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,19L108,19"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,29L108,29"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,39L108,39"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,49L108,49"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,59L108,59"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,69L108,69"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,79L108,79"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,89L108,89"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M0,99L108,99"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M19,29L89,29"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M19,39L89,39"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M19,49L89,49"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M19,59L89,59"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M19,69L89,69"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M19,79L89,79"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M29,19L29,89"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M39,19L39,89"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M49,19L49,89"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M59,19L59,89"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M69,19L69,89"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-    <path[m
+[31m-        android:fillColor="#00000000"[m
+[31m-        android:pathData="M79,19L79,89"[m
+[31m-        android:strokeWidth="0.8"[m
+[31m-        android:strokeColor="#33FFFFFF" />[m
+[31m-</vector>[m
+[1mdiff --git a/app/src/main/res/drawable/img.png b/app/src/main/res/drawable/img.png[m
+[1mdeleted file mode 100644[m
+[1mindex 54fa431..0000000[m
+Binary files a/app/src/main/res/drawable/img.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_10.png b/app/src/main/res/drawable/img_10.png[m
+[1mdeleted file mode 100644[m
+[1mindex 40a1cc1..0000000[m
+Binary files a/app/src/main/res/drawable/img_10.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_11.png b/app/src/main/res/drawable/img_11.png[m
+[1mdeleted file mode 100644[m
+[1mindex 0ca0386..0000000[m
+Binary files a/app/src/main/res/drawable/img_11.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_3.png b/app/src/main/res/drawable/img_3.png[m
+[1mdeleted file mode 100644[m
+[1mindex 525ab9f..0000000[m
+Binary files a/app/src/main/res/drawable/img_3.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_4.png b/app/src/main/res/drawable/img_4.png[m
+[1mdeleted file mode 100644[m
+[1mindex 74714be..0000000[m
+Binary files a/app/src/main/res/drawable/img_4.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_5.png b/app/src/main/res/drawable/img_5.png[m
+[1mdeleted file mode 100644[m
+[1mindex e04a1d8..0000000[m
+Binary files a/app/src/main/res/drawable/img_5.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_6.png b/app/src/main/res/drawable/img_6.png[m
+[1mdeleted file mode 100644[m
+[1mindex b926c88..0000000[m
+Binary files a/app/src/main/res/drawable/img_6.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_7.png b/app/src/main/res/drawable/img_7.png[m
+[1mdeleted file mode 100644[m
+[1mindex 4ddb393..0000000[m
+Binary files a/app/src/main/res/drawable/img_7.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_8.png b/app/src/main/res/drawable/img_8.png[m
+[1mdeleted file mode 100644[m
+[1mindex 3924177..0000000[m
+Binary files a/app/src/main/res/drawable/img_8.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/img_9.png b/app/src/main/res/drawable/img_9.png[m
+[1mdeleted file mode 100644[m
+[1mindex b14df0a..0000000[m
+Binary files a/app/src/main/res/drawable/img_9.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/drawable/login.png b/app/src/main/res/drawable/login.png[m
+[1mdeleted file mode 100644[m
+[1mindex 84362a9..0000000[m
+Binary files a/app/src/main/res/drawable/login.png and /dev/null differ
+[1mdiff --git a/app/src/main/res/layout/activity_dashboard.xml b/app/src/main/res/layout/activity_dashboard.xml[m
+[1mdeleted file mode 100644[m
+[1mindex e816bb6..0000000[m
+[1m--- a/app/src/main/res/layout/activity_dashboard.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,113 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<LinearLayout[m
+[31m-    xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    xmlns:tools="http://schemas.android.com/tools"[m
+[31m-    android:layout_width="match_parent"[m
+[31m-    android:layout_height="match_parent"[m
+[31m-    android:orientation="horizontal"[m
+[31m-    android:background="@drawable/dashbord"[m
+[31m-    android:padding="20dp"[m
+[31m-    android:id="@+id/burderLayout"[m
+[31m-     >[m
+[31m-[m
+[31m-    <!-- Left side (Buttons) -->[m
+[31m-    <LinearLayout[m
+[31m-        android:layout_width="0dp"[m
+[31m-        android:layout_height="match_parent"[m
+[31m-        android:layout_weight="1"[m
+[31m-        android:background="#A968CA"[m
+[31m-        android:orientation="vertical">[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonAdd"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-[m
+[31m-            android:text="Add Details" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonUpdate"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Update Details" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonView"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="View Details" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonDelete"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Delete Details" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonCheckPackage"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Cheak Package" />[m
+[31m-[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonBookPackage"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Book Package" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonViewPackage"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="View Package" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonViewHotel"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="View Hotel" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonBookedHotel"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="View Booked Hotel" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonDestination"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Destination" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonPayment"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Payment" />[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonAbout"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="About"[m
+[31m-            tools:ignore="VisualLintButtonSize" />[m
+[31m-    </LinearLayout>[m
+[31m-[m
+[31m-    <!-- Right side (Image and border) -->[m
+[31m-    <LinearLayout[m
+[31m-        android:layout_width="0dp"[m
+[31m-        android:layout_height="match_parent"[m
+[31m-        android:layout_weight="2"[m
+[31m-        android:orientation="vertical"[m
+[31m-        >[m
+[31m-[m
+[31m-        <ImageView[m
+[31m-            android:layout_width="291dp"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-[m
+[31m-            android:scaleType="fitXY"[m
+[31m-            android:src="@drawable/img_10" />[m
+[31m-[m
+[31m-    </LinearLayout>[m
+[31m-</LinearLayout>[m
+[1mdiff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 3b48f25..0000000[m
+[1m--- a/app/src/main/res/layout/activity_main.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,73 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<RelativeLayout[m
+[31m-    xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    android:layout_width="match_parent"[m
+[31m-    android:layout_height="match_parent"[m
+[31m-    android:background="@drawable/img_6">[m
+[31m-[m
+[31m-    <ImageView[m
+[31m-        android:id="@+id/logo_image"[m
+[31m-        android:layout_width="200dp"[m
+[31m-        android:layout_height="200dp"[m
+[31m-        android:layout_centerHorizontal="true"[m
+[31m-        android:layout_marginTop="100dp"[m
+[31m-        android:src="@drawable/img_8" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/emailEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:hint="Email"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:layout_below="@id/logo_image"[m
+[31m-        android:layout_marginTop="50dp"[m
+[31m-        android:padding="10dp"[m
+[31m-        android:background="@drawable/edit_text_bg" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/passwordEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:hint="Password"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:layout_below="@id/emailEditText"[m
+[31m-        android:layout_marginTop="20dp"[m
+[31m-        android:padding="10dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:inputType="textPassword" />[m
+[31m-[m
+[31m-    <Button[m
+[31m-        android:id="@+id/loginButton"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/passwordEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="30dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/button_bg"[m
+[31m-        android:text="Login" />[m
+[31m-[m
+[31m-    <TextView[m
+[31m-        android:id="@+id/forgotPassword"[m
+[31m-        android:layout_width="wrap_content"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:text="Forgot Password?"[m
+[31m-        android:layout_centerHorizontal="true"[m
+[31m-        android:layout_below="@id/signupButton"[m
+[31m-        android:layout_marginTop="20dp"[m
+[31m-        android:textColor="#007AFF" />[m
+[31m-[m
+[31m-    <Button[m
+[31m-        android:id="@+id/signupButton"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/passwordEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="94dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/button_bg"[m
+[31m-        android:text="Sign up" />[m
+[31m-[m
+[31m-</RelativeLayout>[m
+[1mdiff --git a/app/src/main/res/layout/activity_update_details.xml b/app/src/main/res/layout/activity_update_details.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 41121d4..0000000[m
+[1m--- a/app/src/main/res/layout/activity_update_details.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,156 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<LinearLayout[m
+[31m-    xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    android:layout_width="match_parent"[m
+[31m-    android:layout_height="match_parent"[m
+[31m-    android:orientation="vertical"[m
+[31m-    android:background="#49D0E4"[m
+[31m-    android:padding="25dp"[m
+[31m-    >[m
+[31m-    <LinearLayout[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="match_parent"[m
+[31m-        android:orientation="vertical"[m
+[31m-        android:padding="16dp"[m
+[31m-        android:background="#34C2A2"[m
+[31m-        >[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:layout_width="wrap_content"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Update Details"[m
+[31m-            android:textColor="@android:color/black"[m
+[31m-            android:textSize="30sp"[m
+[31m-            android:textStyle="bold"[m
+[31m-            android:layout_gravity="center"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextUserName"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="User Name"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:inputType="text"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextId"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Id"[m
+[31m-            android:inputType="number"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextAdharPan"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Adhar/PAN Number"[m
+[31m-            android:inputType="text"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextName"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Name"[m
+[31m-            android:inputType="text"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextGender"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Gender"[m
+[31m-            android:inputType="text"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextCountry"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Country"[m
+[31m-            android:inputType="text"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextAddress"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Address"[m
+[31m-            android:inputType="text"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextPhone"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Phone"[m
+[31m-            android:inputType="phone"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextEmail"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="Email"[m
+[31m-            android:inputType="textEmailAddress"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="32dp"/>[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonUpdate"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-[m
+[31m-            android:gravity="center"[m
+[31m-            android:padding="10dp"[m
+[31m-            android:text="Update"[m
+[31m-            android:textColor="#FFFFFF"[m
+[31m-            android:textSize="18dp" />[m
+[31m-    </LinearLayout>[m
+[31m-</LinearLayout>[m
+[1mdiff --git a/app/src/main/res/layout/activity_view_details.xml b/app/src/main/res/layout/activity_view_details.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 01fc7e3..0000000[m
+[1m--- a/app/src/main/res/layout/activity_view_details.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,176 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<LinearLayout[m
+[31m-    xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    android:layout_width="match_parent"[m
+[31m-    android:layout_height="match_parent"[m
+[31m-    android:orientation="vertical"[m
+[31m-    android:background="#49D0E4"[m
+[31m-    android:padding="18dp"[m
+[31m-    >[m
+[31m-    <LinearLayout[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="match_parent"[m
+[31m-        android:orientation="vertical"[m
+[31m-        android:padding="10dp"[m
+[31m-        android:background="#34C2A2"[m
+[31m-        >[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:layout_width="wrap_content"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="View Details"[m
+[31m-            android:textColor="@android:color/black"[m
+[31m-            android:textSize="30sp"[m
+[31m-            android:textStyle="bold"[m
+[31m-            android:layout_gravity="center"[m
+[31m-            android:layout_marginBottom="16dp"/>[m
+[31m-[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextId"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:hint="ENTER THE ID YOU WANT TO SEE "[m
+[31m-            android:inputType="number"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewUserName"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="User Name"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewId"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Id"[m
+[31m-            android:inputType="number"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewAdarPan"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Adhar/PAN Number"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewName"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Name"[m
+[31m-[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewGender"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Gender"[m
+[31m-[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewCountry"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Country"[m
+[31m-[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewAddress"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Address"[m
+[31m-[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewPhone"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Phone"[m
+[31m-[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <TextView[m
+[31m-            android:id="@+id/textViewEmail"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:text="Email"[m
+[31m-            android:textSize="18dp"[m
+[31m-            android:padding="8dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:paddingStart="12dp"[m
+[31m-            android:paddingEnd="12dp"[m
+[31m-            android:layout_marginBottom="10dp"/>[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonView"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:gravity="center"[m
+[31m-[m
+[31m-            android:text="View"[m
+[31m-            android:textColor="#FFFFFF"[m
+[31m-            android:textSize="18dp" />[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonDelete"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:gravity="center"[m
+[31m-            android:text="Delete"[m
+[31m-            android:textColor="#FFFFFF"[m
+[31m-            android:textSize="18dp" />[m
+[31m-[m
+[31m-[m
+[31m-    </LinearLayout>[m
+[31m-</LinearLayout>[m
+[1mdiff --git a/app/src/main/res/layout/addpersonaldetails.xml b/app/src/main/res/layout/addpersonaldetails.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 7721fd2..0000000[m
+[1m--- a/app/src/main/res/layout/addpersonaldetails.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,154 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<LinearLayout[m
+[31m-    xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    android:layout_width="match_parent"[m
+[31m-    android:layout_height="match_parent"[m
+[31m-    android:orientation="vertical"[m
+[31m-    android:padding="12dp"[m
+[31m-    android:background="#34C2A2"[m
+[31m-    >[m
+[31m-    <LinearLayout[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="match_parent"[m
+[31m-        android:orientation="vertical"[m
+[31m-        android:padding="10dp"[m
+[31m-        android:background="@drawable/img_11"[m
+[31m-        >[m
+[31m-        <TextView[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:layout_gravity="center"[m
+[31m-            android:text="ADD DETAILS"[m
+[31m-            android:textColor="@android:color/white"[m
+[31m-            android:layout_marginLeft="64dp"[m
+[31m-            android:layout_marginRight="24dp"[m
+[31m-            android:textSize="27sp"[m
+[31m-            android:textStyle="bold" />[m
+[31m-        <EditText[m
+[31m-            android:id="@+id/editTextUsername"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:layout_marginStart="10dp"[m
+[31m-            android:layout_marginTop="20dp"[m
+[31m-            android:layout_marginEnd="10dp"[m
+[31m-            android:background="@drawable/edit_text_bg"[m
+[31m-            android:hint="Username"[m
+[31m-            android:padding="8dp" />[m
+[31m-[m
+[31m-        <EditText[m
+[31m-        android:id="@+id/editTextId"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Id"[m
+[31m-        android:minHeight="48dp"[m
+[31m-            android:padding="8dp" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/editTextNumber"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:hint="Adhar/PAN Number"[m
+[31m-        android:padding="8dp"[m
+[31m-        android:background="@drawable/edit_text_bg" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/editTextName"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:hint="Name"[m
+[31m-        android:padding="8dp"[m
+[31m-        android:background="@drawable/edit_text_bg" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/editTextGender"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:hint="Gender"[m
+[31m-        android:padding="8dp"[m
+[31m-        android:background="@drawable/edit_text_bg" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/editTextCountry"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:hint="Country"[m
+[31m-        android:padding="8dp"[m
+[31m-        android:background="@drawable/edit_text_bg" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/editTextAddress"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:hint="Address"[m
+[31m-        android:padding="8dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:inputType="textPostalAddress" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/editTextPhone"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:hint="Phone"[m
+[31m-        android:padding="8dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:inputType="phone" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/editTextEmailAddress"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_marginStart="10dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="10dp"[m
+[31m-        android:hint="Email"[m
+[31m-        android:padding="8dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:inputType="textEmailAddress" />[m
+[31m-[m
+[31m-[m
+[31m-        <Button[m
+[31m-            android:id="@+id/buttonAdd"[m
+[31m-            android:layout_width="match_parent"[m
+[31m-            android:layout_height="wrap_content"[m
+[31m-            android:layout_marginLeft="10dp"[m
+[31m-            android:layout_marginRight="10dp"[m
+[31m-            android:layout_gravity="center_horizontal"[m
+[31m-            android:layout_marginTop="10dp"[m
+[31m-            android:text="Add" />[m
+[31m-[m
+[31m-    <Button[m
+[31m-        android:id="@+id/buttonBack"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_gravity="center_horizontal"[m
+[31m-        android:layout_marginTop="10dp"[m
+[31m-        android:layout_marginLeft="10dp"[m
+[31m-        android:layout_marginRight="10dp"[m
+[31m-        android:text="Back" />[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-    </LinearLayout>[m
+[31m-</LinearLayout>[m
+[1mdiff --git a/app/src/main/res/layout/forgetpassword.xml b/app/src/main/res/layout/forgetpassword.xml[m
+[1mdeleted file mode 100644[m
+[1mindex fe27383..0000000[m
+[1m--- a/app/src/main/res/layout/forgetpassword.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,95 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    android:layout_width="match_parent"[m
+[31m-    android:layout_height="match_parent"[m
+[31m-    android:background="@drawable/img_6">[m
+[31m-[m
+[31m-    <ImageView[m
+[31m-        android:id="@+id/logo_image"[m
+[31m-        android:layout_width="200dp"[m
+[31m-        android:layout_height="200dp"[m
+[31m-        android:layout_centerHorizontal="true"[m
+[31m-        android:layout_marginTop="100dp"[m
+[31m-        android:src="@drawable/img_9" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/usernameEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/logo_image"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="-14dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Username"[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/emailEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:hint="Email"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:layout_below="@id/usernameEditText"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:padding="10dp"[m
+[31m-        android:background="@drawable/edit_text_bg" />[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/SecurityEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/emailEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Security question"[m
+[31m-        android:autoSizeTextType="uniform"[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/answerEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/SecurityEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Answer"[m
+[31m-[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/passwordEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/answerEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="18dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Password"[m
+[31m-        android:inputType="textPassword"[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-[m
+[31m-    <Button[m
+[31m-        android:id="@+id/backButton"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/passwordEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/button_bg"[m
+[31m-        android:padding="5dp"[m
+[31m-        android:text="Back" />[m
+[31m-[m
+[31m-[m
+[31m-</RelativeLayout>[m
+[1mdiff --git a/app/src/main/res/layout/signup.xml b/app/src/main/res/layout/signup.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 391d87e..0000000[m
+[1m--- a/app/src/main/res/layout/signup.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,101 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    android:layout_width="match_parent"[m
+[31m-    android:layout_height="match_parent"[m
+[31m-    android:background="@drawable/img_6">[m
+[31m-[m
+[31m-    <ImageView[m
+[31m-        android:id="@+id/logo_image"[m
+[31m-        android:layout_width="200dp"[m
+[31m-        android:layout_height="200dp"[m
+[31m-        android:layout_centerHorizontal="true"[m
+[31m-        android:layout_marginTop="100dp"[m
+[31m-        android:src="@drawable/img_7" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/usernameEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/logo_image"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Username"[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/emailEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:hint="Email"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:layout_below="@id/usernameEditText"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:padding="10dp"[m
+[31m-        android:background="@drawable/edit_text_bg" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/passwordEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/emailEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Password"[m
+[31m-        android:inputType="textPassword"[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/SecurityEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/passwordEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Security question"[m
+[31m-       android:autoSizeTextType="uniform"[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-    <EditText[m
+[31m-        android:id="@+id/answerEditText"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/SecurityEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/edit_text_bg"[m
+[31m-        android:hint="Answer"[m
+[31m-[m
+[31m-        android:padding="10dp" />[m
+[31m-[m
+[31m-[m
+[31m-    <Button[m
+[31m-        android:id="@+id/signupButton"[m
+[31m-        android:layout_width="match_parent"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@id/answerEditText"[m
+[31m-        android:layout_marginStart="20dp"[m
+[31m-        android:layout_marginTop="15dp"[m
+[31m-        android:layout_marginEnd="20dp"[m
+[31m-        android:background="@drawable/button_bg"[m
+[31m-        android:text="Sign Up" />[m
+[31m-[m
+[31m-    <TextView[m
+[31m-        android:id="@+id/loginLinkTextView"[m
+[31m-        android:layout_width="wrap_content"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:text="Already have an account? Login"[m
+[31m-        android:textStyle="bold"[m
+[31m-        android:layout_centerHorizontal="true"[m
+[31m-        android:layout_below="@id/signupButton"[m
+[31m-        android:layout_marginTop="20dp"[m
+[31m-        android:textColor="#007AFF" />[m
+[31m-[m
+[31m-</RelativeLayout>[m
+[1mdiff --git a/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml b/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 6f3b755..0000000[m
+[1m--- a/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-    <background android:drawable="@drawable/ic_launcher_background" />[m
+[31m-    <foreground android:drawable="@drawable/ic_launcher_foreground" />[m
+[31m-    <monochrome android:drawable="@drawable/ic_launcher_foreground" />[m
+[31m-</adaptive-icon>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml b/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 6f3b755..0000000[m
+[1m--- a/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">[m
+[31m-    <background android:drawable="@drawable/ic_launcher_background" />[m
+[31m-    <foreground android:drawable="@drawable/ic_launcher_foreground" />[m
+[31m-    <monochrome android:drawable="@drawable/ic_launcher_foreground" />[m
+[31m-</adaptive-icon>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/mipmap-hdpi/ic_launcher.webp b/app/src/main/res/mipmap-hdpi/ic_launcher.webp[m
+[1mdeleted file mode 100644[m
+[1mindex c209e78..0000000[m
+Binary files a/app/src/main/res/mipmap-hdpi/ic_launcher.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp[m
+[1mdeleted file mode 100644[m
+[1mindex b2dfe3d..0000000[m
+Binary files a/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-mdpi/ic_launcher.webp b/app/src/main/res/mipmap-mdpi/ic_launcher.webp[m
+[1mdeleted file mode 100644[m
+[1mindex 4f0f1d6..0000000[m
+Binary files a/app/src/main/res/mipmap-mdpi/ic_launcher.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp[m
+[1mdeleted file mode 100644[m
+[1mindex 62b611d..0000000[m
+Binary files a/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-xhdpi/ic_launcher.webp b/app/src/main/res/mipmap-xhdpi/ic_launcher.webp[m
+[1mdeleted file mode 100644[m
+[1mindex 948a307..0000000[m
+Binary files a/app/src/main/res/mipmap-xhdpi/ic_launcher.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp[m
+[1mdeleted file mode 100644[m
+[1mindex 1b9a695..0000000[m
+Binary files a/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp b/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp[m
+[1mdeleted file mode 100644[m
+[1mindex 28d4b77..0000000[m
+Binary files a/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp[m
+[1mdeleted file mode 100644[m
+[1mindex 9287f50..0000000[m
+Binary files a/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp b/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp[m
+[1mdeleted file mode 100644[m
+[1mindex aa7d642..0000000[m
+Binary files a/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp[m
+[1mdeleted file mode 100644[m
+[1mindex 9126ae3..0000000[m
+Binary files a/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp and /dev/null differ
+[1mdiff --git a/app/src/main/res/values-night/themes.xml b/app/src/main/res/values-night/themes.xml[m
+[1mdeleted file mode 100644[m
+[1mindex abb828c..0000000[m
+[1m--- a/app/src/main/res/values-night/themes.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,7 +0,0 @@[m
+[31m-<resources xmlns:tools="http://schemas.android.com/tools">[m
+[31m-    <!-- Base application theme. -->[m
+[31m-    <style name="Base.Theme.TravelManagementSystem" parent="Theme.Material3.DayNight.NoActionBar">[m
+[31m-        <!-- Customize your dark theme here. -->[m
+[31m-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->[m
+[31m-    </style>[m
+[31m-</resources>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/values/colors.xml b/app/src/main/res/values/colors.xml[m
+[1mdeleted file mode 100644[m
+[1mindex c8524cd..0000000[m
+[1m--- a/app/src/main/res/values/colors.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,5 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<resources>[m
+[31m-    <color name="black">#FF000000</color>[m
+[31m-    <color name="white">#FFFFFFFF</color>[m
+[31m-</resources>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 91f3c76..0000000[m
+[1m--- a/app/src/main/res/values/strings.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,4 +0,0 @@[m
+[31m-<resources>[m
+[31m-    <string name="app_name">Travel Management System</string>[m
+[31m-[m
+[31m-</resources>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/values/themes.xml b/app/src/main/res/values/themes.xml[m
+[1mdeleted file mode 100644[m
+[1mindex c99348b..0000000[m
+[1m--- a/app/src/main/res/values/themes.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,9 +0,0 @@[m
+[31m-<resources xmlns:tools="http://schemas.android.com/tools">[m
+[31m-    <!-- Base application theme. -->[m
+[31m-    <style name="Base.Theme.TravelManagementSystem" parent="Theme.Material3.DayNight.NoActionBar">[m
+[31m-        <!-- Customize your light theme here. -->[m
+[31m-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->[m
+[31m-    </style>[m
+[31m-[m
+[31m-    <style name="Theme.TravelManagementSystem" parent="Base.Theme.TravelManagementSystem" />[m
+[31m-</resources>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/xml/backup_rules.xml b/app/src/main/res/xml/backup_rules.xml[m
+[1mdeleted file mode 100644[m
+[1mindex fa0f996..0000000[m
+[1m--- a/app/src/main/res/xml/backup_rules.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,13 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?><!--[m
+[31m-   Sample backup rules file; uncomment and customize as necessary.[m
+[31m-   See https://developer.android.com/guide/topics/data/autobackup[m
+[31m-   for details.[m
+[31m-   Note: This file is ignored for devices older that API 31[m
+[31m-   See https://developer.android.com/about/versions/12/backup-restore[m
+[31m--->[m
+[31m-<full-backup-content>[m
+[31m-    <!--[m
+[31m-   <include domain="sharedpref" path="."/>[m
+[31m-   <exclude domain="sharedpref" path="device.xml"/>[m
+[31m--->[m
+[31m-</full-backup-content>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/res/xml/data_extraction_rules.xml b/app/src/main/res/xml/data_extraction_rules.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 9ee9997..0000000[m
+[1m--- a/app/src/main/res/xml/data_extraction_rules.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,19 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?><!--[m
+[31m-   Sample data extraction rules file; uncomment and customize as necessary.[m
+[31m-   See https://developer.android.com/about/versions/12/backup-restore#xml-changes[m
+[31m-   for details.[m
+[31m--->[m
+[31m-<data-extraction-rules>[m
+[31m-    <cloud-backup>[m
+[31m-        <!-- TODO: Use <include> and <exclude> to control what is backed up.[m
+[31m-        <include .../>[m
+[31m-        <exclude .../>[m
+[31m-        -->[m
+[31m-    </cloud-backup>[m
+[31m-    <!--[m
+[31m-    <device-transfer>[m
+[31m-        <include .../>[m
+[31m-        <exclude .../>[m
+[31m-    </device-transfer>[m
+[31m-    -->[m
+[31m-</data-extraction-rules>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/test/java/com/example/travelmanagementsystem/ExampleUnitTest.java b/app/src/test/java/com/example/travelmanagementsystem/ExampleUnitTest.java[m
+[1mdeleted file mode 100644[m
+[1mindex 82c3489..0000000[m
+[1m--- a/app/src/test/java/com/example/travelmanagementsystem/ExampleUnitTest.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,17 +0,0 @@[m
+[31m-package com.example.travelmanagementsystem;[m
+[31m-[m
+[31m-import org.junit.Test;[m
+[31m-[m
+[31m-import static org.junit.Assert.*;[m
+[31m-[m
+[31m-/**[m
+[31m- * Example local unit test, which will execute on the development machine (host).[m
+[31m- *[m
+[31m- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>[m
+[31m- */[m
+[31m-public class ExampleUnitTest {[m
+[31m-    @Test[m
+[31m-    public void addition_isCorrect() {[m
+[31m-        assertEquals(4, 2 + 2);[m
+[31m-    }[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/build.gradle b/build.gradle[m
+[1mdeleted file mode 100644[m
+[1mindex 7cedb1e..0000000[m
+[1m--- a/build.gradle[m
+[1m+++ /dev/null[m
+[36m@@ -1,17 +0,0 @@[m
+[31m-// Top-level build file where you can add configuration options common to all sub-projects/modules.[m
+[31m-[m
+[31m-buildscript {[m
+[31m-    repositories {[m
+[31m-        google()[m
+[31m-        mavenCentral()[m
+[31m-    }[m
+[31m-    dependencies {[m
+[31m-        classpath 'com.android.tools.build:gradle:8.0.2' // Update this to a version that supports compileSdk 34[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[31m-plugins {[m
+[31m-    id 'com.android.application' version '8.0.2' apply false[m
+[31m-    id 'com.android.library' version '8.0.2' apply false[m
+[31m-}[m
+[31m-[m
+[1mdiff --git a/gradle.properties b/gradle.properties[m
+[1mdeleted file mode 100644[m
+[1mindex 3e927b1..0000000[m
+[1m--- a/gradle.properties[m
+[1m+++ /dev/null[m
+[36m@@ -1,21 +0,0 @@[m
+[31m-# Project-wide Gradle settings.[m
+[31m-# IDE (e.g. Android Studio) users:[m
+[31m-# Gradle settings configured through the IDE *will override*[m
+[31m-# any settings specified in this file.[m
+[31m-# For more details on how to configure your build environment visit[m
+[31m-# http://www.gradle.org/docs/current/userguide/build_environment.html[m
+[31m-# Specifies the JVM arguments used for the daemon process.[m
+[31m-# The setting is particularly useful for tweaking memory settings.[m
+[31m-org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8[m
+[31m-# When configured, Gradle will run in incubating parallel mode.[m
+[31m-# This option should only be used with decoupled projects. More details, visit[m
+[31m-# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects[m
+[31m-# org.gradle.parallel=true[m
+[31m-# AndroidX package structure to make it clearer which packages are bundled with the[m
+[31m-# Android operating system, and which are packaged with your app's APK[m
+[31m-# https://developer.android.com/topic/libraries/support-library/androidx-rn[m
+[31m-android.useAndroidX=true[m
+[31m-# Enables namespacing of each library's R class so that its R class includes only the[m
+[31m-# resources declared in the library itself and none from the library's dependencies,[m
+[31m-# thereby reducing the size of the R class for that library[m
+[31m-android.nonTransitiveRClass=true[m
+\ No newline at end of file[m
+[1mdiff --git a/gradle/wrapper/gradle-wrapper.jar b/gradle/wrapper/gradle-wrapper.jar[m
+[1mdeleted file mode 100644[m
+[1mindex e708b1c..0000000[m
+Binary files a/gradle/wrapper/gradle-wrapper.jar and /dev/null differ
+[1mdiff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties[m
+[1mdeleted file mode 100644[m
+[1mindex 9d4f523..0000000[m
+[1m--- a/gradle/wrapper/gradle-wrapper.properties[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-#Wed Aug 23 18:46:27 IST 2023[m
+[31m-distributionBase=GRADLE_USER_HOME[m
+[31m-distributionPath=wrapper/dists[m
+[31m-distributionUrl=https\://services.gradle.org/distributions/gradle-8.0-bin.zip[m
+[31m-zipStoreBase=GRADLE_USER_HOME[m
+[31m-zipStorePath=wrapper/dists[m
+[1mdiff --git a/gradlew b/gradlew[m
+[1mdeleted file mode 100644[m
+[1mindex 4f906e0..0000000[m
+[1m--- a/gradlew[m
+[1m+++ /dev/null[m
+[36m@@ -1,185 +0,0 @@[m
+[31m-#!/usr/bin/env sh[m
+[31m-[m
+[31m-#[m
+[31m-# Copyright 2015 the original author or authors.[m
+[31m-#[m
+[31m-# Licensed under the Apache License, Version 2.0 (the "License");[m
+[31m-# you may not use this file except in compliance with the License.[m
+[31m-# You may obtain a copy of the License at[m
+[31m-#[m
+[31m-#      https://www.apache.org/licenses/LICENSE-2.0[m
+[31m-#[m
+[31m-# Unless required by applicable law or agreed to in writing, software[m
+[31m-# distributed under the License is distributed on an "AS IS" BASIS,[m
+[31m-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[m
+[31m-# See the License for the specific language governing permissions and[m
+[31m-# limitations under the License.[m
+[31m-#[m
+[31m-[m
+[31m-##############################################################################[m
+[31m-##[m
+[31m-##  Gradle start up script for UN*X[m
+[31m-##[m
+[31m-##############################################################################[m
+[31m-[m
+[31m-# Attempt to set APP_HOME[m
+[31m-# Resolve links: $0 may be a link[m
+[31m-PRG="$0"[m
+[31m-# Need this for relative symlinks.[m
+[31m-while [ -h "$PRG" ] ; do[m
+[31m-    ls=`ls -ld "$PRG"`[m
+[31m-    link=`expr "$ls" : '.*-> \(.*\)$'`[m
+[31m-    if expr "$link" : '/.*' > /dev/null; then[m
+[31m-        PRG="$link"[m
+[31m-    else[m
+[31m-        PRG=`dirname "$PRG"`"/$link"[m
+[31m-    fi[m
+[31m-done[m
+[31m-SAVED="`pwd`"[m
+[31m-cd "`dirname \"$PRG\"`/" >/dev/null[m
+[31m-APP_HOME="`pwd -P`"[m
+[31m-cd "$SAVED" >/dev/null[m
+[31m-[m
+[31m-APP_NAME="Gradle"[m
+[31m-APP_BASE_NAME=`basename "$0"`[m
+[31m-[m
+[31m-# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.[m
+[31m-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'[m
+[31m-[m
+[31m-# Use the maximum available, or set MAX_FD != -1 to use that value.[m
+[31m-MAX_FD="maximum"[m
+[31m-[m
+[31m-warn () {[m
+[31m-    echo "$*"[m
+[31m-}[m
+[31m-[m
+[31m-die () {[m
+[31m-    echo[m
+[31m-    echo "$*"[m
+[31m-    echo[m
+[31m-    exit 1[m
+[31m-}[m
+[31m-[m
+[31m-# OS specific support (must be 'true' or 'false').[m
+[31m-cygwin=false[m
+[31m-msys=false[m
+[31m-darwin=false[m
+[31m-nonstop=false[m
+[31m-case "`uname`" in[m
+[31m-  CYGWIN* )[m
+[31m-    cygwin=true[m
+[31m-    ;;[m
+[31m-  Darwin* )[m
+[31m-    darwin=true[m
+[31m-    ;;[m
+[31m-  MINGW* )[m
+[31m-    msys=true[m
+[31m-    ;;[m
+[31m-  NONSTOP* )[m
+[31m-    nonstop=true[m
+[31m-    ;;[m
+[31m-esac[m
+[31m-[m
+[31m-CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar[m
+[31m-[m
+[31m-[m
+[31m-# Determine the Java command to use to start the JVM.[m
+[31m-if [ -n "$JAVA_HOME" ] ; then[m
+[31m-    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then[m
+[31m-        # IBM's JDK on AIX uses strange locations for the executables[m
+[31m-        JAVACMD="$JAVA_HOME/jre/sh/java"[m
+[31m-    else[m
+[31m-        JAVACMD="$JAVA_HOME/bin/java"[m
+[31m-    fi[m
+[31m-    if [ ! -x "$JAVACMD" ] ; then[m
+[31m-        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME[m
+[31m-[m
+[31m-Please set the JAVA_HOME variable in your environment to match the[m
+[31m-location of your Java installation."[m
+[31m-    fi[m
+[31m-else[m
+[31m-    JAVACMD="java"[m
+[31m-    which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.[m
+[31m-[m
+[31m-Please set the JAVA_HOME variable in your environment to match the[m
+[31m-location of your Java installation."[m
+[31m-fi[m
+[31m-[m
+[31m-# Increase the maximum file descriptors if we can.[m
+[31m-if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then[m
+[31m-    MAX_FD_LIMIT=`ulimit -H -n`[m
+[31m-    if [ $? -eq 0 ] ; then[m
+[31m-        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then[m
+[31m-            MAX_FD="$MAX_FD_LIMIT"[m
+[31m-        fi[m
+[31m-        ulimit -n $MAX_FD[m
+[31m-        if [ $? -ne 0 ] ; then[m
+[31m-            warn "Could not set maximum file descriptor limit: $MAX_FD"[m
+[31m-        fi[m
+[31m-    else[m
+[31m-        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"[m
+[31m-    fi[m
+[31m-fi[m
+[31m-[m
+[31m-# For Darwin, add options to specify how the application appears in the dock[m
+[31m-if $darwin; then[m
+[31m-    GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""[m
+[31m-fi[m
+[31m-[m
+[31m-# For Cygwin or MSYS, switch paths to Windows format before running java[m
+[31m-if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then[m
+[31m-    APP_HOME=`cygpath --path --mixed "$APP_HOME"`[m
+[31m-    CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`[m
+[31m-[m
+[31m-    JAVACMD=`cygpath --unix "$JAVACMD"`[m
+[31m-[m
+[31m-    # We build the pattern for arguments to be converted via cygpath[m
+[31m-    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`[m
+[31m-    SEP=""[m
+[31m-    for dir in $ROOTDIRSRAW ; do[m
+[31m-        ROOTDIRS="$ROOTDIRS$SEP$dir"[m
+[31m-        SEP="|"[m
+[31m-    done[m
+[31m-    OURCYGPATTERN="(^($ROOTDIRS))"[m
+[31m-    # Add a user-defined pattern to the cygpath arguments[m
+[31m-    if [ "$GRADLE_CYGPATTERN" != "" ] ; then[m
+[31m-        OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"[m
+[31m-    fi[m
+[31m-    # Now convert the arguments - kludge to limit ourselves to /bin/sh[m
+[31m-    i=0[m
+[31m-    for arg in "$@" ; do[m
+[31m-        CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`[m
+[31m-        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option[m
+[31m-[m
+[31m-        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition[m
+[31m-            eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`[m
+[31m-        else[m
+[31m-            eval `echo args$i`="\"$arg\""[m
+[31m-        fi[m
+[31m-        i=`expr $i + 1`[m
+[31m-    done[m
+[31m-    case $i in[m
+[31m-        0) set -- ;;[m
+[31m-        1) set -- "$args0" ;;[m
+[31m-        2) set -- "$args0" "$args1" ;;[m
+[31m-        3) set -- "$args0" "$args1" "$args2" ;;[m
+[31m-        4) set -- "$args0" "$args1" "$args2" "$args3" ;;[m
+[31m-        5) set -- "$args0" "$args1" "$args2" "$args3" "$args4" ;;[m
+[31m-        6) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" ;;[m
+[31m-        7) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" ;;[m
+[31m-        8) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" ;;[m
+[31m-        9) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" "$args8" ;;[m
+[31m-    esac[m
+[31m-fi[m
+[31m-[m
+[31m-# Escape application args[m
+[31m-save () {[m
+[31m-    for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done[m
+[31m-    echo " "[m
+[31m-}[m
+[31m-APP_ARGS=`save "$@"`[m
+[31m-[m
+[31m-# Collect all arguments for the java command, following the shell quoting and substitution rules[m
+[31m-eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"[m
+[31m-[m
+[31m-exec "$JAVACMD" "$@"[m
+[1mdiff --git a/gradlew.bat b/gradlew.bat[m
+[1mdeleted file mode 100644[m
+[1mindex 107acd3..0000000[m
+[1m--- a/gradlew.bat[m
+[1m+++ /dev/null[m
+[36m@@ -1,89 +0,0 @@[m
+[31m-@rem[m
+[31m-@rem Copyright 2015 the original author or authors.[m
+[31m-@rem[m
+[31m-@rem Licensed under the Apache License, Version 2.0 (the "License");[m
+[31m-@rem you may not use this file except in compliance with the License.[m
+[31m-@rem You may obtain a copy of the License at[m
+[31m-@rem[m
+[31m-@rem      https://www.apache.org/licenses/LICENSE-2.0[m
+[31m-@rem[m
+[31m-@rem Unless required by applicable law or agreed to in writing, software[m
+[31m-@rem distributed under the License is distributed on an "AS IS" BASIS,[m
+[31m-@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[m
+[31m-@rem See the License for the specific language governing permissions and[m
+[31m-@rem limitations under the License.[m
+[31m-@rem[m
+[31m-[m
+[31m-@if "%DEBUG%" == "" @echo off[m
+[31m-@rem ##########################################################################[m
+[31m-@rem[m
+[31m-@rem  Gradle startup script for Windows[m
+[31m-@rem[m
+[31m-@rem ##########################################################################[m
+[31m-[m
+[31m-@rem Set local scope for the variables with windows NT shell[m
+[31m-if "%OS%"=="Windows_NT" setlocal[m
+[31m-[m
+[31m-set DIRNAME=%~dp0[m
+[31m-if "%DIRNAME%" == "" set DIRNAME=.[m
+[31m-set APP_BASE_NAME=%~n0[m
+[31m-set APP_HOME=%DIRNAME%[m
+[31m-[m
+[31m-@rem Resolve any "." and ".." in APP_HOME to make it shorter.[m
+[31m-for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi[m
+[31m-[m
+[31m-@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.[m
+[31m-set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"[m
+[31m-[m
+[31m-@rem Find java.exe[m
+[31m-if defined JAVA_HOME goto findJavaFromJavaHome[m
+[31m-[m
+[31m-set JAVA_EXE=java.exe[m
+[31m-%JAVA_EXE% -version >NUL 2>&1[m
+[31m-if "%ERRORLEVEL%" == "0" goto execute[m
+[31m-[m
+[31m-echo.[m
+[31m-echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.[m
+[31m-echo.[m
+[31m-echo Please set the JAVA_HOME variable in your environment to match the[m
+[31m-echo location of your Java installation.[m
+[31m-[m
+[31m-goto fail[m
+[31m-[m
+[31m-:findJavaFromJavaHome[m
+[31m-set JAVA_HOME=%JAVA_HOME:"=%[m
+[31m-set JAVA_EXE=%JAVA_HOME%/bin/java.exe[m
+[31m-[m
+[31m-if exist "%JAVA_EXE%" goto execute[m
+[31m-[m
+[31m-echo.[m
+[31m-echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%[m
+[31m-echo.[m
+[31m-echo Please set the JAVA_HOME variable in your environment to match the[m
+[31m-echo location of your Java installation.[m
+[31m-[m
+[31m-goto fail[m
+[31m-[m
+[31m-:execute[m
+[31m-@rem Setup the command line[m
+[31m-[m
+[31m-set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar[m
+[31m-[m
+[31m-[m
+[31m-@rem Execute Gradle[m
+[31m-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*[m
+[31m-[m
+[31m-:end[m
+[31m-@rem End local scope for the variables with windows NT shell[m
+[31m-if "%ERRORLEVEL%"=="0" goto mainEnd[m
+[31m-[m
+[31m-:fail[m
+[31m-rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of[m
+[31m-rem the _cmd.exe /c_ return code![m
+[31m-if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1[m
+[31m-exit /b 1[m
+[31m-[m
+[31m-:mainEnd[m
+[31m-if "%OS%"=="Windows_NT" endlocal[m
+[31m-[m
+[31m-:omega[m
+[1mdiff --git a/settings.gradle b/settings.gradle[m
+[1mdeleted file mode 100644[m
+[1mindex 316ff07..0000000[m
+[1m--- a/settings.gradle[m
+[1m+++ /dev/null[m
+[36m@@ -1,16 +0,0 @@[m
+[31m-pluginManagement {[m
+[31m-    repositories {[m
+[31m-        google()[m
+[31m-        mavenCentral()[m
+[31m-        gradlePluginPortal()[m
+[31m-    }[m
+[31m-}[m
+[31m-dependencyResolutionManagement {[m
+[31m-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)[m
+[31m-    repositories {[m
+[31m-        google()[m
+[31m-        mavenCentral()[m
+[31m-    }[m
+[31m-}[m
+[31m-rootProject.name = "Travel Management  System"[m
+[31m-include ':app'[m
