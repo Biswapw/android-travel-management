@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/dashbord"
+    android:padding="20dp"
+    android:id="@+id/burderLayout"
+     >
+
+    <!-- Left side (Buttons) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#A968CA"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Add Details" />
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Details" />
+
+        <Button
+            android:id="@+id/buttonView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Details" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Details" />
+
+        <Button
+            android:id="@+id/buttonCheckPackage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cheak Package" />
+
+
+        <Button
+            android:id="@+id/buttonBookPackage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Package" />
+
+        <Button
+            android:id="@+id/buttonViewPackage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Package" />
+
+        <Button
+            android:id="@+id/buttonViewHotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Hotel" />
+
+        <Button
+            android:id="@+id/buttonBookedHotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Booked Hotel" />
+
+        <Button
+            android:id="@+id/buttonDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destination" />
+
+        <Button
+            android:id="@+id/buttonPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment" />
+
+        <Button
+            android:id="@+id/buttonAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+    <!-- Right side (Image and border) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/img_10" />
+
+    </LinearLayout>
+</LinearLayout>

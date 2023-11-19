@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#49D0E4"
+    android:padding="18dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#34C2A2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Details"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER THE ID YOU WANT TO SEE "
+            android:inputType="number"
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:background="@drawable/edit_text_bg"
+
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:inputType="number"
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewAdarPan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adhar/PAN Number"
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country"
+
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/buttonView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="View"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
